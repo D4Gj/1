@@ -1,0 +1,32 @@
+Админка то что всё реализовано вне, она нужна чисто для визуального
+Почему моя лучше других, например мудл, сколько шагов нужно для создания курса
+Про масштабирование нужно то что замещение уливта
+# списки
+a = "asd"
+# создать список
+list1 = [1, 2, 3, 4, 5]
+list2 = list([12312,2,2,3,])
+# заполнение списка
+list3 = list(map(int, input().split()))  # 1 23
+n = int(input())
+for _ in range(n):
+    num = int(input())
+    list1.append(int(input()))
+
+# Проход
+
+for val in list1:
+    val = val + 100
+    print(val)
+print("Список через итерацию", list1, end=' ')
+
+print()
+n = int(input())  # количество элементов списка
+for i in range(n):  # range(len(list1)) # имя_списка[индекс]
+    list1[i] = list1[i] + 100
+    print(list1[i])
+
+print("Список через индексы", list1, end=' ')
+
+list1.pop()
+list1.remove(11)
